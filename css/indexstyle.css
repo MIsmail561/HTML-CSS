@@ -1,0 +1,571 @@
+*
+{
+}
+
+::selection 
+{
+    background-color: rgba(196, 45, 50, 0.68);
+    color: #fff;
+    text-shadow: none;
+}
+
+.navbar-logo
+{
+    position: relative;
+}
+
+
+.logo-img
+{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top:-18px;
+    left: -70px;
+}
+
+@media screen and (max-width:992px)
+{
+    .logo-img
+    {
+        width: 44%;
+        height: 44%;
+        top:-18px;
+        left: -70px;
+    }
+    .navbar-logo
+    {
+        position: relative;
+        left: 65px;
+    }
+  
+}
+
+.bg-dark 
+{
+    background-color: black !important;
+}
+
+
+
+.navbar-dark .navbar-nav .nav-link
+{
+    font-weight: 500;
+    padding: 0px, 25px;
+    color: #fff;
+    border-bottom: 2px solid;
+    border-bottom-color:transparent;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover
+{
+    color: #ec3237;
+    border-bottom: 2px solid;
+}
+
+.navbar
+{
+    z-index: 5555;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+/*
+-----------------------------------------------
+                  end of navbar
+-----------------------------------------------
+*/
+
+
+.home
+{
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.layer
+{ 
+    width: 100%;
+    height: 100%;
+    background-color: rgba(196, 45, 50, 0.68);
+}
+
+.title h2
+{
+    font-weight: 700;
+    font-size: 3.5em;
+    color: #fff;
+    text-shadow: 0px 5px 10px #af2424;
+}
+
+.title h3
+{
+    font-weight: 500;
+    font-size: 1.5em;
+    color: #fff;
+    text-shadow: 0px 5px 10px #af2424;
+}
+
+@media screen and (max-width:992px)
+{
+    .title h2
+    {
+        font-size: 1.5em;
+        
+    }
+    .title h3
+    {
+        font-size: 1em;
+    }
+}
+
+
+
+/*
+-----------------------------------------------
+              end of home 
+-----------------------------------------------
+*/
+
+
+.about .title
+{
+    font-size: 2.5em;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #444;
+}
+
+
+.about p
+{
+    font-size: 16px;
+    font-weight: 300;
+    color: #777777;
+}
+
+.about h3
+{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #444;
+    font-size: 40px;
+    line-height: 1.5;
+}
+
+
+.about h4
+{
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #444;
+    font-size: 20px;
+}
+
+.brand-logos i
+{
+    color: #777;
+    border: 1px solid;
+    border-color: #777;
+    font-size: 18px;
+    padding: 10px;
+    margin: 0px 4px;
+}
+
+.brand-logos i:hover
+{
+    background-color: red;
+    color: white;
+}
+
+.brand-logos
+{
+    border-top: 1px dotted;
+    border-top-color: #fafafa;
+    padding: 50px 0px;
+}
+
+
+.bg-pink
+{
+    background-color: #ec3237;
+}
+
+
+
+
+
+
+.progress span
+{
+    text-align: right;
+}
+
+
+.prog-info
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.prog-title
+{
+    width: 30%;
+}
+.prog-prec
+{
+    width: 6%;
+}
+
+
+/*
+---------------------------------------------------
+                 end of about
+---------------------------------------------------
+*/
+
+.job
+{
+    background-color: #f5f5f5;
+}
+
+
+.job h3
+{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #444;
+    font-size: 40px;
+    line-height: 1.5;
+}
+
+
+.job p
+{
+    font-size: 18px;
+    font-weight: 300;
+    color: #777777;
+}
+
+.job .card-title
+{
+    color: #444;
+    text-transform: uppercase;
+    padding-top: 15px;
+    
+}
+
+.job .card-body i
+{
+    background-color: #f5f5f5;
+    padding: 10px;
+    font-size: 22px;
+    color: #777;
+}
+
+.job .card-body:hover i
+{
+    color: white;
+    background-color: #ec3237;
+}
+
+.job .card-body:hover .card-title
+{
+    color: #ec3237;
+}
+
+/*
+---------------------------------------------
+                end of job
+---------------------------------------------
+*/
+
+.count
+{
+    background-image: url(../images/project-counter.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+
+.card
+{
+    border-color: rgba(255,255,255,0.1);
+    margin: 30px 0px;
+}
+
+
+.card-subtitle
+{
+    font-size: 3em;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.count .card-title
+{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ec3237;
+    font-size: 18px;
+}
+
+.card .card-body .cont-ico
+{
+    color: #ec3237;
+    font-size: 2em;
+    padding: 30px 0px;
+}
+
+
+/*
+---------------------------------------------
+             end of count
+---------------------------------------------
+*/
+
+
+.profile
+{
+    background-color: #f5f5f5;  
+}
+
+
+
+.profile h3
+{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #444;
+    font-size: 40px;
+    line-height: 1.5;
+}
+
+.profile p
+{
+    font-size: 18px;
+    font-weight: 300;
+    color: #777777;
+}
+
+
+.profile .pro-btn .btn
+{
+    font-weight: 700;
+    font-size: 18px;
+    border: 1px solid;
+    border-color: #ddd;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.profile .pro-btn .btn:hover
+{
+    color: #ec3237; 
+    border-color: #ec3237 !important ;
+  
+}
+
+
+.lay-ico
+{
+    position: absolute;
+    top: 57%;
+    left: 45%;
+    margin: auto;
+    
+}
+
+.profile .card .lay-ico i
+{
+    font-size: 16px;
+    background-color: black;
+    padding: 8px;
+    border-radius: 50%;
+    color: #fff;
+    
+    
+}
+
+.modal-dialog
+{
+    max-width:  90%  ;
+    max-width: 60%;
+    
+}
+
+.profile .modal-body
+{
+    padding: 0;
+}
+
+/*
+----------------------------------------------------------
+                    end of profile
+----------------------------------------------------------
+*/
+
+.info
+{
+    background-image: url(../images/client-testimonial.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.info .col-center
+{
+	margin: 0 auto;
+	float: none !important;
+}
+
+
+.info .carousel
+{
+	margin: 50px auto;
+	padding: 0 70px;
+}
+
+
+.info .carousel .item 
+{
+	color: #999;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 290px;
+}
+
+
+.info .carousel .item .img-box
+{
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 4px solid;
+    border-color: #ec3237;
+	border-radius: 50%;
+}
+
+.info .carousel .img-box img 
+{
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+
+
+
+.info .carousel .overview
+{
+	text-transform: uppercase;
+	color: #ec3237;
+    font-size: 22px;
+}
+
+.info .carousel .carousel-control 
+{
+	width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+	background: none;
+}
+
+.info .testimonial
+{
+    padding: 20px 0px 0px;
+    font-size: 18px;
+    
+}
+.info .carousel-control i 
+{
+    font-size: 35px;
+	line-height: 42px;
+    position: absolute;
+    display: inline-block;
+	color: #fff;
+}
+
+/*
+---------------------------------------------------------
+                   end of info
+---------------------------------------------------------
+*/
+
+.hire h3
+{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #444;
+    font-size: 40px;
+    line-height: 1.5;
+}
+
+.hire p
+{
+    font-size: 18px;
+    font-weight: 300;
+    color: #777777;
+}
+
+
+
+
+
+/*
+------------------------------------------------------
+              end of hire
+------------------------------------------------------
+*/
+
+
+.copy
+{
+    background-color: #f5f5f5;
+}
+
+.copy-info
+{
+    display: block;
+}
+
+.copy p
+{
+    font-size: 16px;
+    font-weight: 200;
+    color: #777777;
+}
+
+.copy-info a
+{
+    text-decoration: none;
+    color: #ec3237;
+}
+
+.copy-info a:hover
+{
+    color:#ec3237;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
